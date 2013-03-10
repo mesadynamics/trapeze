@@ -1,0 +1,11 @@
+"UpdateCheck" = "Check for Updates...";
+"UpdateYes" = "A new version of Trapeze is available.";
+"UpdateNo" = "Your version of Trapeze is up to date.  There are no updates available at this time.";
+"UpdateDownload" = "Go to Download Page";
+
+"Preprocessing" = "Preprocessing";
+"File" = "File";
+"Remaining" = "Files remaining";
+"ConvertOne" = "Converting 1 page to";
+"ConvertMany" = "Converting %d pages to";
+"Desktop" = "on the Desktop";
