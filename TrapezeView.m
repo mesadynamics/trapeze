@@ -24,13 +24,13 @@
         NSColor* c1 = [NSColor colorWithCalibratedWhite:.80 alpha:1.0];
         NSColor* c2 = [NSColor colorWithCalibratedWhite:.85 alpha:1.0];
         NSGradient* dragGradient = [[NSGradient alloc] initWithStartingColor:c1 endingColor:c2];
-        [dragGradient drawInRect:rect angle:90.0];
+        [dragGradient drawInRect:[self frame] angle:90.0];
     }
     else {
         NSColor* c1 = [NSColor colorWithCalibratedWhite:.90 alpha:1.0];
         NSColor* c2 = [NSColor colorWithCalibratedWhite:.95 alpha:1.0];
         NSGradient* normalGradient = [[NSGradient alloc] initWithStartingColor:c1 endingColor:c2];
-        [normalGradient drawInRect:rect angle:90.0];
+        [normalGradient drawInRect:[self frame] angle:90.0];
     }
     
     NSImage* logo = [NSImage imageNamed:@"Trapeze"];
